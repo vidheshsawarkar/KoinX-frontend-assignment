@@ -12,7 +12,9 @@ export function YouMayLike(){
             setData(data.coins);
         }
         fetchData();
-      }, [data]);
+      }, []);
+
+    //   console.log(data[0].item.data.sparkline)
 
     return <div className="bg-white rounded-lg px-14 py-14 w-full overflow-scroll">
         <p className="font-medium text-2xl leading-10 text-black pb-4">You May Also Like</p>
