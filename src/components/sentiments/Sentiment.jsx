@@ -7,7 +7,7 @@ import { Stats } from "./Stats";
 
 
 export function Sentiment(){
-    return <div className="bg-white rounded-lg px-8 pt-8 pb-12 mb-6 w-full">
+    return <div className="bg-white rounded-lg px-8 pt-8 pb-8 mb-4 w-full">
         <p className="font-medium text-2xl pb-4">Sentiment</p>
         <div className="flex items-center pb-4">
             <p className="font-medium text-[#44475B] text-lg pr-2">Key Events</p>
@@ -39,7 +39,7 @@ export function Sentiment(){
                 </defs>
             </svg>
         </div>
-        <div className=" flex items-center pt-4">
+        <div className="sm:flex items-center pt-4">
             <Estimate percentage={"76"} />
             <Stats />
         </div>
