@@ -17,7 +17,7 @@ export function Chart(){
         fetchData();
     }, [data]);
 
-    console.log(data)
+    // console.log(data)
 
   return <div className="bg-white rounded-lg px-8 py-6 mb-6 w-full">
         <div className="flex items-center pb-8">

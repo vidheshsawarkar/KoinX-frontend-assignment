@@ -1,7 +1,7 @@
 
 
 export function Stats(){
-    return  <div className="w-full ml-12">
+    return  <div className="w-full ml-6 md:ml-12">
         <div className="flex items-center mb-3">
             <p className="font-normal text-base text-[#7C7E8C]">Buy</p>
             <hr class="h-2 rounded-sm bg-[#00B386] w-1/2 ml-6 mr-4"></hr>
